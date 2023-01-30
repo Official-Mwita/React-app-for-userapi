@@ -78,7 +78,7 @@ const [invoices, populateInvoices] = useState([]); //To hold a list of invoices
             ):
             (
                 <div>
-                     <h3>It seem you have no invoices</h3>
+                     <h3>It seems you have no invoices</h3>
                     <Link className="App-link" to="/AddInvoice" onClick={() => setEdit(false)}>
                         Add Invoice
                     </Link>
